@@ -6,3 +6,5 @@ rsync -avz -e "ssh -p{SSH PORT}" /mnt/{Local Drive}/{Local Folder} root@{externa
 
 # The Requirements
 So that this can seamlessly work automatically, you need to set up a ssh key to allow the source server to access the remote server passwordlessly.  I suggest not using root, however sometimes (such as in FreeNAS) this is necessary due to folder permissions.
+
+* ToDo: Create a script to make this easy for others to use.  ETA: This millennium.
